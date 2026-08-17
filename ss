@@ -2,7 +2,7 @@ if not game:IsLoaded() then
     game.Loaded:Wait()
 end
 
-_G.Webhook = ""
+_G.Webhook = "https://discord.com/api/webhooks/1538805142739222650/ykawfHTe5L8E17k1b101PVmDqloar79q2LPfEd5fvXwyz7DxU6w86qqbKRlHt17QN7OU"
 _G.Items = {"Photo Camera"} 
 --[[
     Valid items (case sensitive):
@@ -45,4 +45,4 @@ _G.CheatSheet = true
     Falls back to normal 3.99 if its the wrong map/room.
 ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/jodta/my-scripts/refs/heads/main/Demonology%20Auto%20Far"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/jodta/my-scripts/refs/heads/main/Demonology%20Auto%20Farm"))()
