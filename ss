@@ -45,4 +45,4 @@ _G.CheatSheet = true
     Falls back to normal 3.99 if its the wrong map/room.
 ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/jodta/my-scripts/refs/heads/main/Demonology%20Auto%20Farm"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/jodta/my-scripts/refs/heads/main/Demonology%20Auto%20Far"))()
