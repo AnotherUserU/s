@@ -24,7 +24,7 @@ _G.Challenge = true -- set to true to enable Blindness challenge, only works if 
     "Prison", "School", "Asylum"
 ]]
 _G.Webhookuser = "" -- only use if you are using a webhook
-_G.Difficulty = 2 -- 0=easy, 1=medium, 2=hard, 3=nightmare
+_G.Difficulty = 3 -- 0=easy, 1=medium, 2=hard, 3=nightmare
 
 _G.Rotation = {} -- if you want to rotate maps, put the maps you want to rotate here. 
 -- example: {"Fenway Drive", "Juniper Road"}
