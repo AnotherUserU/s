@@ -11,10 +11,10 @@ _G.Items = {"Photo Camera"}
     if you want more than one then heres an example: 
      _G.Items = {"Cross", "Photo Camera"}
 ]]
-_G.PresetName = "Autofarm" -- if using a preset, put the name of it here. 
+_G.PresetName = "" -- if using a preset, put the name of it here. 
 -- Presets are case sensitive and must be exactly the same as the preset in the game. If you want to use a preset, you must also set _G.presetenabled to true.
 
-_G.presetenabled = true
+_G.presetenabled = false
 _G.Map = "Juniper Road"
 _G.Challenge = true -- set to true to enable Blindness challenge, only works if its in todays challenges. If 399 mode then all challenges will be enabled.
 --[[
@@ -31,7 +31,7 @@ _G.Rotation = {} -- if you want to rotate maps, put the maps you want to rotate 
 _G.Randomize = false -- set to true to randomize the maps in the rotation.
 
 -- 399 IS EXPERIMENTAL IN THIS VERSION AND MAY NOT OUTPUT CORRECTLY
-_G["399"] = true -- If you are using 3.99 mode you must use a preset as well and it needs to be set to 3.99 mulitplier unless you want to experience hella issues.
+_G["399"] = false -- If you are using 3.99 mode you must use a preset as well and it needs to be set to 3.99 mulitplier unless you want to experience hella issues.
 -- 399 mode has a 32% chance to get it right every single time, you will earn around 400-600 and up to 700. Expected around 100k+ a day.
 _G.Time = 100 -- Time in seconds before it aborts, I suggest keeping it around 90-100 for the fastest time.
 
