@@ -11,7 +11,7 @@ _G.Items = {"Photo Camera"}
     if you want more than one then heres an example: 
      _G.Items = {"Cross", "Photo Camera"}
 ]]
-_G.PresetName = "Autofarm" -- if using a preset, put the name of it here. 
+_G.PresetName = "" -- if using a preset, put the name of it here. 
 -- Presets are case sensitive and must be exactly the same as the preset in the game. If you want to use a preset, you must also set _G.presetenabled to true.
 
 _G.presetenabled = false
